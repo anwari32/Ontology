@@ -1,0 +1,558 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/lmanw/ontologies/2021/3/untitled-ontology-4#"
+     xml:base="http://www.semanticweb.org/lmanw/ontologies/2021/3/untitled-ontology-4"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Anas_platyrhynchos -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Anas_platyrhynchos">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Duck"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Aves"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Anatomical_Entity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Anatomical_Entity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Disease_Cause"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Animalia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Animalia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Multicellular"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Antibiotic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Antibiotic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Drug"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Antisymptom -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Antisymptom">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Drug"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Aves -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Aves">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Animalia"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Mamalia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Bacterium -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Bacterium">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Unicellular"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Bos_taurus -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Bos_taurus">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Cattle"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Mamalia"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Capra_aegagrus"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Capra_aegagrus -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Capra_aegagrus">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Goat"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Mamalia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Cattle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Cattle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Livestock"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Chicken -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Chicken">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Gallus_gallus"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Livestock"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Concentrates -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Concentrates">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Feeds_&amp;_Fodders"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Creature -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Creature"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Disease -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Disease"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Disease_Cause -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Disease_Cause"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Drug -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Drug"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Duck -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Duck">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Livestock"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Egg -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Egg">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Products"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Feed_supplements -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Feed_supplements">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Feeds_&amp;_Fodders"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Gallus_gallus -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Gallus_gallus">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Aves"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Goat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Goat">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Livestock"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Grass -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Grass">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Roughages"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Infectious -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Infectious">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Disease"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Infectious_Agent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Infectious_Agent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Disease_Cause"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Leather -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Leather">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Products"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Livestock -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Livestock"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Mamalia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Mamalia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Animalia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Meat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Meat">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Products"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Metabolism -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Metabolism">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Disease_Cause"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Milk -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Milk">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Products"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Multicellular -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Multicellular">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Creature"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Non_Infectious -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Non_Infectious">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Disease"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Plantae -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Plantae">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Multicellular"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Poaceae -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Poaceae">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Plantae"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Products -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Products"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Roughages -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Roughages">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Feeds_&amp;_Fodders"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Supplement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Supplement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Drug"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Symptom -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Symptom"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Therapy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Therapy"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Unicellular -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Unicellular">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Creature"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Virus -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Virus">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Unicellular"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Wool -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Wool">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Products"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Feeds_&amp;_Fodders -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Feeds_&amp;_Fodders"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Ayam_Pedaging -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Ayam_Pedaging"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Ayam_Petelur -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Ayam_Petelur">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Gallus_gallus"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Livestock"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Bacillus_anthracis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Bacillus_anthracis"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Bloat -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Bloat">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Non_Infectious"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Bovine_herpesvirus-1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Bovine_herpesvirus-1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Virus"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Gamma_Herpesvirus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Gamma_Herpesvirus"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Infectious_Bovine_Rhinotracheitis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Infectious_Bovine_Rhinotracheitis">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Infectious"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Jembrana_Disease -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Jembrana_Disease">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Infectious"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Kambing -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Kambing">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Livestock"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Mycobacterium_avium_paratuberculosis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Mycobacterium_avium_paratuberculosis"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Rumen_fistula -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Rumen_fistula">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Therapy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Rumenotomi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Rumenotomi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Therapy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Rumput_benggala -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Rumput_benggala">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Grass"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Rumput_brachiaria -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Rumput_brachiaria">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Grass"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Rumput_gajah -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Rumput_gajah">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Grass"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Rumput_raja -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Rumput_raja">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Grass"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Rumput_setaria -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Rumput_setaria">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Grass"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Sapi_Frisian_Holstein -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Sapi_Frisian_Holstein">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Bos_taurus"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Livestock"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Sapi_Pedaging -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Sapi_Pedaging">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Bos_taurus"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Stomach_tube -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Stomach_tube">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Therapy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Trocar -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Trocar">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Therapy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Trypanosoma_evansi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Trypanosoma_evansi"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Egg"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Leather"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Meat"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Milk"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lmanw/ontologies/2021/3/livestock#Wool"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

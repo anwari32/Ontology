@@ -1,0 +1,333 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/lmanw/ontologies/2021/2/Hewan_Ternak#"
+     xml:base="http://www.semanticweb.org/lmanw/ontologies/2021/2/Hewan_Ternak"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/lmanw/ontologies/2021/2/Hewan_Ternak">
+        <owl:versionIRI rdf:resource="http://www.semanticweb.org/lmanw/ontologies/2021/2/Hewan_Ternak/1.0.0"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/lmanw/ontologies/2021/2/Hewan_Ternak#genus -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lmanw/ontologies/2021/2/Hewan_Ternak#genus">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/lmanw/ontologies/2021/2/Hewan_Ternak#organism"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lmanw/ontologies/2021/2/Hewan_Ternak#has_beak -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lmanw/ontologies/2021/2/Hewan_Ternak#has_beak">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lmanw/ontologies/2021/2/Hewan_Ternak#has_feathers -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lmanw/ontologies/2021/2/Hewan_Ternak#has_feathers">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lmanw/ontologies/2021/2/Hewan_Ternak#has_four_legs -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lmanw/ontologies/2021/2/Hewan_Ternak#has_four_legs">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/lmanw/ontologies/2021/2/Hewan_Ternak#has_legs"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lmanw/ontologies/2021/2/Hewan_Ternak#has_hairs -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lmanw/ontologies/2021/2/Hewan_Ternak#has_hairs">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lmanw/ontologies/2021/2/Hewan_Ternak#has_horns -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lmanw/ontologies/2021/2/Hewan_Ternak#has_horns">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lmanw/ontologies/2021/2/Hewan_Ternak#has_legs -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lmanw/ontologies/2021/2/Hewan_Ternak#has_legs">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lmanw/ontologies/2021/2/Hewan_Ternak#has_two_legs -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lmanw/ontologies/2021/2/Hewan_Ternak#has_two_legs">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/lmanw/ontologies/2021/2/Hewan_Ternak#has_legs"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lmanw/ontologies/2021/2/Hewan_Ternak#has_wings -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lmanw/ontologies/2021/2/Hewan_Ternak#has_wings">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lmanw/ontologies/2021/2/Hewan_Ternak#organism -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lmanw/ontologies/2021/2/Hewan_Ternak#organism">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lmanw/ontologies/2021/2/Hewan_Ternak#species -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lmanw/ontologies/2021/2/Hewan_Ternak#species">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/lmanw/ontologies/2021/2/Hewan_Ternak#organism"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/lmanw/ontologies/2021/2/Hewan_Ternak#name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/lmanw/ontologies/2021/2/Hewan_Ternak#name"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/lmanw/ontologies/2021/2/Hewan_Ternak#Bakteri -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lmanw/ontologies/2021/2/Hewan_Ternak#Bakteri">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lmanw/ontologies/2021/2/Hewan_Ternak#Uniseluler"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lmanw/ontologies/2021/2/Hewan_Ternak#Hewan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lmanw/ontologies/2021/2/Hewan_Ternak#Hewan">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lmanw/ontologies/2021/2/Hewan_Ternak#Multiseluler"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lmanw/ontologies/2021/2/Hewan_Ternak#Hewan_Berkaki_Dua -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lmanw/ontologies/2021/2/Hewan_Ternak#Hewan_Berkaki_Dua">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lmanw/ontologies/2021/2/Hewan_Ternak#Hewan_Ternak"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/lmanw/ontologies/2021/2/Hewan_Ternak#Hewan_Berkaki_Empat"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lmanw/ontologies/2021/2/Hewan_Ternak#Hewan_Berkaki_Empat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lmanw/ontologies/2021/2/Hewan_Ternak#Hewan_Berkaki_Empat">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lmanw/ontologies/2021/2/Hewan_Ternak#Hewan_Ternak"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lmanw/ontologies/2021/2/Hewan_Ternak#Hewan_Ternak -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lmanw/ontologies/2021/2/Hewan_Ternak#Hewan_Ternak">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lmanw/ontologies/2021/2/Hewan_Ternak#Hewan"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lmanw/ontologies/2021/2/Hewan_Ternak#Menular -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lmanw/ontologies/2021/2/Hewan_Ternak#Menular">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lmanw/ontologies/2021/2/Hewan_Ternak#Penyakit"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/lmanw/ontologies/2021/2/Hewan_Ternak#Tidak_Menular"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lmanw/ontologies/2021/2/Hewan_Ternak#Multiseluler -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lmanw/ontologies/2021/2/Hewan_Ternak#Multiseluler">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lmanw/ontologies/2021/2/Hewan_Ternak#Organisme"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lmanw/ontologies/2021/2/Hewan_Ternak#Obat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lmanw/ontologies/2021/2/Hewan_Ternak#Obat"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lmanw/ontologies/2021/2/Hewan_Ternak#Organisme -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lmanw/ontologies/2021/2/Hewan_Ternak#Organisme"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lmanw/ontologies/2021/2/Hewan_Ternak#Pakan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lmanw/ontologies/2021/2/Hewan_Ternak#Pakan"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lmanw/ontologies/2021/2/Hewan_Ternak#Penyakit -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lmanw/ontologies/2021/2/Hewan_Ternak#Penyakit"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lmanw/ontologies/2021/2/Hewan_Ternak#Tidak_Menular -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lmanw/ontologies/2021/2/Hewan_Ternak#Tidak_Menular">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lmanw/ontologies/2021/2/Hewan_Ternak#Penyakit"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lmanw/ontologies/2021/2/Hewan_Ternak#Uniseluler -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lmanw/ontologies/2021/2/Hewan_Ternak#Uniseluler">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lmanw/ontologies/2021/2/Hewan_Ternak#Organisme"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/lmanw/ontologies/2021/2/Hewan_Ternak#Anthrax -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lmanw/ontologies/2021/2/Hewan_Ternak#Anthrax">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lmanw/ontologies/2021/2/Hewan_Ternak#Menular"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lmanw/ontologies/2021/2/Hewan_Ternak#Ayam -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lmanw/ontologies/2021/2/Hewan_Ternak#Ayam">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lmanw/ontologies/2021/2/Hewan_Ternak#Hewan_Berkaki_Dua"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lmanw/ontologies/2021/2/Hewan_Ternak#Bebek -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lmanw/ontologies/2021/2/Hewan_Ternak#Bebek">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lmanw/ontologies/2021/2/Hewan_Ternak#Hewan_Berkaki_Dua"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lmanw/ontologies/2021/2/Hewan_Ternak#Bovine_Spongiform_Encephalopathy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lmanw/ontologies/2021/2/Hewan_Ternak#Bovine_Spongiform_Encephalopathy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lmanw/ontologies/2021/2/Hewan_Ternak#Menular"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lmanw/ontologies/2021/2/Hewan_Ternak#Brucellosis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lmanw/ontologies/2021/2/Hewan_Ternak#Brucellosis">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lmanw/ontologies/2021/2/Hewan_Ternak#Menular"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lmanw/ontologies/2021/2/Hewan_Ternak#Helminthiasis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lmanw/ontologies/2021/2/Hewan_Ternak#Helminthiasis">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lmanw/ontologies/2021/2/Hewan_Ternak#Menular"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lmanw/ontologies/2021/2/Hewan_Ternak#Infectius_Bovine_Rhinotracheitis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lmanw/ontologies/2021/2/Hewan_Ternak#Infectius_Bovine_Rhinotracheitis">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lmanw/ontologies/2021/2/Hewan_Ternak#Menular"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lmanw/ontologies/2021/2/Hewan_Ternak#Kambing -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lmanw/ontologies/2021/2/Hewan_Ternak#Kambing">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lmanw/ontologies/2021/2/Hewan_Ternak#Hewan_Berkaki_Empat"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lmanw/ontologies/2021/2/Hewan_Ternak#PMK -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lmanw/ontologies/2021/2/Hewan_Ternak#PMK">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lmanw/ontologies/2021/2/Hewan_Ternak#Menular"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lmanw/ontologies/2021/2/Hewan_Ternak#Sapi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lmanw/ontologies/2021/2/Hewan_Ternak#Sapi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lmanw/ontologies/2021/2/Hewan_Ternak#Hewan_Berkaki_Empat"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
