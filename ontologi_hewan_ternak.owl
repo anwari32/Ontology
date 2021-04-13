@@ -593,6 +593,375 @@
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#Anemia_Hemolitik -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Anemia_Hemolitik">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#HemicAndImmuneSystemSymptom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#Aphtae -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Aphtae">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Virus"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#Ayam_Pedaging -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Ayam_Pedaging">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Poultry"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#Ayam_Petelur -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Ayam_Petelur">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Poultry"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#Bacillus_anthracis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Bacillus_anthracis">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Bacteria"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#Berputar-putar -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Berputar-putar">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#NervousSystemSymptom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#Bloat -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Bloat">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#MetabolicDisorder"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#Bottle_Jaw -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Bottle_Jaw">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#MusculoskeletalSystemSymptom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#Bovine_herpesvirus-1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Bovine_herpesvirus-1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Virus"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#Diare -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Diare">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#AbdominalAndDigestiveSystemSymptom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#Emasiasi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Emasiasi"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#Gagal_Jantung -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Gagal_Jantung">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#CardiovascularSystemSymtpom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#Gamma_herpesvirus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Gamma_herpesvirus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Virus"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#Infectious_Bovine_Rhinotracheitis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Infectious_Bovine_Rhinotracheitis">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#ViralDisease"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#Jembrana_Disease -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Jembrana_Disease"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#Kejang -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Kejang">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#NervousSystemSymptom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#Kematian_Mendadak -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Kematian_Mendadak"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#Kurus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Kurus"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#Lemah_atau_Lesu -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Lemah_atau_Lesu"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#Malignant_Catarrhal_Fever -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Malignant_Catarrhal_Fever">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#ViralDisease"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#Mata_Memutih -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Mata_Memutih">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#NeurologicalAndPhysiologicalSymptom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#Mycobacterieum_avium_paratuberculosis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Mycobacterieum_avium_paratuberculosis">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Bacteria"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#Panas_Tinggi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Panas_Tinggi"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#Paratuberculosis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Paratuberculosis">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#BacterialDisease"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#Pembengkakan_Alat_Kelamin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Pembengkakan_Alat_Kelamin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#ReproductiveSystemSymptom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#Pembengkakan_Dada -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Pembengkakan_Dada">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#RespiratorySystemAndChestSymtpom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#Pembengkakan_Lambung -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Pembengkakan_Lambung">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#AbdominalAndDigestiveSystemSymptom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#Pembengkakan_Leher -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Pembengkakan_Leher">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#NeurologicalAndPhysiologicalSymptom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#Pembesaran_Limfa -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Pembesaran_Limfa">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#NeurologicalAndPhysiologicalSymptom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#Pembesaran_Limpa -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Pembesaran_Limpa">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#NeurologicalAndPhysiologicalSymptom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#Penebalan_Dinding_Intestinal -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Penebalan_Dinding_Intestinal">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#AbdominalAndDigestiveSystemSymptom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#Pengecilan_Limfa -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Pengecilan_Limfa">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#NeurologicalAndPhysiologicalSymptom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#Pengecilan_Limpa -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Pengecilan_Limpa">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#NeurologicalAndPhysiologicalSymptom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#Penyakit_Mulut_dan_Kuku -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Penyakit_Mulut_dan_Kuku">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#ViralDisease"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#Produksi_Susu_Menurun -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Produksi_Susu_Menurun"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#Rumen_Fistula -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Rumen_Fistula"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#Rumenotomi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Rumenotomi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Medication"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#Rumput_Benggala -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Rumput_Benggala">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Roughages"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#Rumput_Brachiaria -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Rumput_Brachiaria">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Roughages"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#Rumput_Gajah -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Rumput_Gajah">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Roughages"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#Rumput_Raja -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Rumput_Raja">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Roughages"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#Rumput_Setaria -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Rumput_Setaria">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Roughages"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#Sapi_Frisian_Holstein -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Sapi_Frisian_Holstein">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Mammal"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#Sapi_Pedaging -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Sapi_Pedaging">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Mammal"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#Sempoyongan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Sempoyongan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#NervousSystemSymptom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#Sulit_Nafas -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Sulit_Nafas">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#RespiratorySystemAndChestSymtpom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#Trypanosoma_evansi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Trypanosoma_evansi"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
     // General axioms
     //
     ///////////////////////////////////////////////////////////////////////////////////////
