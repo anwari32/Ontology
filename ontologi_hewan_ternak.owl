@@ -35,8 +35,14 @@
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#canBeTreatedBy">
         <owl:inverseOf rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#canTreat"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#ClinicalTerm"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Disease"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#ClinicalTerm"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Disease"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
         <rdfs:range rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Medication"/>
     </owl:ObjectProperty>
     
@@ -46,8 +52,14 @@
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#canTreat">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Medication"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#ClinicalTerm"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Disease"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#ClinicalTerm"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Disease"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
     </owl:ObjectProperty>
     
 
