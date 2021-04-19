@@ -43,7 +43,7 @@
                 </owl:unionOf>
             </owl:Class>
         </rdfs:domain>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Medication"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Treatment"/>
     </owl:ObjectProperty>
     
 
@@ -51,7 +51,7 @@
     <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#canTreat -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#canTreat">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Medication"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Treatment"/>
         <rdfs:range>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
@@ -205,6 +205,22 @@
     
 
 
+    <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#Antibiotic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Antibiotic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Drug"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#Antisymptom -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Antisymptom">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Drug"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#Bacteria -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Bacteria">
@@ -225,6 +241,46 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#CardiovascularSystemSymtpom">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#ClinicalTerm"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#Carp -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Carp">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Fish"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#Catfish -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Catfish">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Fish"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#Cattle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Cattle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Mammal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#Chemotherapy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Chemotherapy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Drug"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#Chicken -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Chicken">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Poultry"/>
     </owl:Class>
     
 
@@ -258,6 +314,23 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Disease">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#AnimalHealthTrait"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#Drug -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Drug">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Treatment"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Non_Drug"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#Duck -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Duck">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Poultry"/>
     </owl:Class>
     
 
@@ -318,6 +391,22 @@
     
 
 
+    <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#Goat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Goat">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Mammal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#Goose -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Goose">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Poultry"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#HeadAndNeckSymtpom -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#HeadAndNeckSymtpom">
@@ -339,6 +428,14 @@
     <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#HorizontalTransmissionDisease">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#CommunicableDisease"/>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#VectorBornDisease"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#Horse -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Horse">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Mammal"/>
     </owl:Class>
     
 
@@ -393,12 +490,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#Medication -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Medication"/>
-    
-
-
     <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#MetabolicDisorder -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#MetabolicDisorder">
@@ -417,6 +508,14 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Milk">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#LivestockProducts"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#Mouse -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Mouse">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Mammal"/>
     </owl:Class>
     
 
@@ -457,6 +556,14 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#NonCommunicableDisease">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Disease"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#Non_Drug -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Non_Drug">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Treatment"/>
     </owl:Class>
     
 
@@ -507,6 +614,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#Pig -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Pig">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Mammal"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#Poultry -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Poultry">
@@ -515,10 +630,34 @@
     
 
 
+    <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#Prevention -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Prevention">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Non_Drug"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#PsychologicalDisorder -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#PsychologicalDisorder">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#NonCommunicableDisease"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#Quail -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Quail">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Poultry"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#Rabbit -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Rabbit">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Mammal"/>
     </owl:Class>
     
 
@@ -547,10 +686,42 @@
     
 
 
+    <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#Salmon -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Salmon">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Fish"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#Sheep -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Sheep">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Mammal"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#SkinAndIntegumentaryTissueSymptom -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#SkinAndIntegumentaryTissueSymptom">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#ClinicalTerm"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#Therapy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Therapy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Non_Drug"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#Tilapia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Tilapia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Fish"/>
     </owl:Class>
     
 
@@ -563,10 +734,32 @@
     
 
 
+    <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#Treatment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Treatment"/>
+    
+
+
     <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#TumorCancerDisease -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#TumorCancerDisease">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#NonCommunicableDisease"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#Turkey -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Turkey">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Poultry"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#Vaccine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Vaccine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Non_Drug"/>
     </owl:Class>
     
 
@@ -618,10 +811,6 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Akumulasi_Gas_dalam_Rumen">
         <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#AbdominalAndDigestiveSystemSymptom"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#MetabolismDiseaseSource"/>
-        <mayBeCausedBy rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Asupan_Pakan_Karbohidrat_Tinggi_Berlebih"/>
-        <mayBeCausedBy rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Asupan_Pakan_Protein_Tinggi_Berlebih"/>
-        <mayCause rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Bloat"/>
     </owl:NamedIndividual>
     
 
@@ -638,7 +827,7 @@
     <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#Antasida -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Antasida">
-        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Medication"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Antisymptom"/>
     </owl:NamedIndividual>
     
 
@@ -656,7 +845,6 @@
         <hasSymptom rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Pembengkakan_Lambung"/>
         <hasSymptom rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Pembengkakan_Leher"/>
         <hasSymptom rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Sempoyongan"/>
-        <isPathogenOf rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Anthrax"/>
     </owl:NamedIndividual>
     
 
@@ -690,7 +878,7 @@
     <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#Ayam_Pedaging -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Ayam_Pedaging">
-        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Poultry"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Chicken"/>
     </owl:NamedIndividual>
     
 
@@ -698,8 +886,7 @@
     <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#Ayam_Petelur -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Ayam_Petelur">
-        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#LivestockSpecies"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Poultry"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Chicken"/>
     </owl:NamedIndividual>
     
 
@@ -734,7 +921,9 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Bloat">
         <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#MetabolicDisorder"/>
-        <mayBeCausedBy rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Akumulasi_Gas_dalam_Rumen"/>
+        <hasSymptom rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Akumulasi_Gas_dalam_Rumen"/>
+        <mayBeCausedBy rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Asupan_Pakan_Karbohidrat_Tinggi_Berlebih"/>
+        <mayBeCausedBy rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Asupan_Pakan_Protein_Tinggi_Berlebih"/>
     </owl:NamedIndividual>
     
 
@@ -756,6 +945,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#Bovine_lentivirus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Bovine_lentivirus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Virus"/>
+        <isPathogenOf rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Jembrana_Disease"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#Chicken_Egg -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Chicken_Egg">
@@ -772,6 +970,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#Convulsion -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Convulsion">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#NervousSystemSymptom"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Kejang"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#Cow_Milk -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Cow_Milk">
@@ -780,9 +987,27 @@
     
 
 
+    <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#Death -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Death">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#GeneralSymptom"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Kematian_Mendadak"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#Dehidrasi -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Dehidrasi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#NutritionMetabolismAndDevelopmentSymptom"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Dehydration"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#Dehydration -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Dehydration">
         <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#NutritionMetabolismAndDevelopmentSymptom"/>
     </owl:NamedIndividual>
     
@@ -792,6 +1017,24 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Diare">
         <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#AbdominalAndDigestiveSystemSymptom"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Diarrhea"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#Diarrhea -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Diarrhea">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#AbdominalAndDigestiveSystemSymptom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#Disorder_of_Skin_Color -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Disorder_of_Skin_Color">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#SkinAndIntegumentaryTissueSymptom"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Warna_Kulit_Memudar"/>
     </owl:NamedIndividual>
     
 
@@ -807,7 +1050,16 @@
     <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#Emasiasi -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Emasiasi">
-        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#ClinicalTerm"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#GeneralSymptom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#Fever -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Fever">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#NeurologicalAndPhysiologicalSymptom"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Panas_Tinggi"/>
     </owl:NamedIndividual>
     
 
@@ -848,7 +1100,7 @@
     <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#Jembrana_Disease -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Jembrana_Disease">
-        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Disease"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#ViralDisease"/>
     </owl:NamedIndividual>
     
 
@@ -864,7 +1116,7 @@
     <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#Kematian_Mendadak -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Kematian_Mendadak">
-        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#ClinicalTerm"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#GeneralSymptom"/>
     </owl:NamedIndividual>
     
 
@@ -872,7 +1124,8 @@
     <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#Kurus -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Kurus">
-        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#ClinicalTerm"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#NutritionMetabolismAndDevelopmentSymptom"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Weight_Loss"/>
     </owl:NamedIndividual>
     
 
@@ -880,7 +1133,8 @@
     <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#Lemah_atau_Lesu -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Lemah_atau_Lesu">
-        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#ClinicalTerm"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#GeneralSymptom"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Weakness"/>
     </owl:NamedIndividual>
     
 
@@ -896,7 +1150,7 @@
     <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#Mata_Memutih -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Mata_Memutih">
-        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#NeurologicalAndPhysiologicalSymptom"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#HeadAndNeckSymtpom"/>
     </owl:NamedIndividual>
     
 
@@ -937,7 +1191,7 @@
     <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#Panas_Tinggi -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Panas_Tinggi">
-        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#ClinicalTerm"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#NeurologicalAndPhysiologicalSymptom"/>
     </owl:NamedIndividual>
     
 
@@ -948,12 +1202,12 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#BacterialDisease"/>
         <affects rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Sapi_Frisian_Holstein"/>
         <affects rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Sapi_Pedaging"/>
+        <hasPathogen rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Mycobacterieum_avium_paratuberculosis"/>
         <hasSymptom rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Diare"/>
         <hasSymptom rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Kurus"/>
         <hasSymptom rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Pembesaran_Limfa"/>
         <hasSymptom rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Penebalan_Dinding_Intestinal"/>
         <hasSymptom rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Warna_Kulit_Memudar"/>
-        <isCausedBy rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Mycobacterieum_avium_paratuberculosis"/>
     </owl:NamedIndividual>
     
 
@@ -1041,21 +1295,23 @@
     <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#Produksi_Susu_Menurun -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Produksi_Susu_Menurun">
-        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#ClinicalTerm"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#GeneralSymptom"/>
     </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#Rumen_Fistula -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Rumen_Fistula"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Rumen_Fistula">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Therapy"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#Rumenotomi -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Rumenotomi">
-        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Medication"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Therapy"/>
     </owl:NamedIndividual>
     
 
@@ -1120,7 +1376,7 @@
     <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#Sapi_Frisian_Holstein -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Sapi_Frisian_Holstein">
-        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Mammal"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Cattle"/>
         <eat rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Rumput_Gajah"/>
         <isAffectedBy rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Anthrax"/>
         <isAffectedBy rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Paratuberculosis"/>
@@ -1133,7 +1389,7 @@
     <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#Sapi_Pedaging -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Sapi_Pedaging">
-        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Mammal"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Cattle"/>
         <isAffectedBy rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Anthrax"/>
         <isAffectedBy rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Paratuberculosis"/>
         <isAffectedBy rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Surra"/>
@@ -1177,7 +1433,9 @@
 
     <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#Trypanosoma_evansi -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Trypanosoma_evansi"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Trypanosoma_evansi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Bacteria"/>
+    </owl:NamedIndividual>
     
 
 
@@ -1185,6 +1443,22 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Warna_Kulit_Memudar">
         <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#SkinAndIntegumentaryTissueSymptom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#Weakness -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Weakness">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#GeneralSymptom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#Weight_Loss -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Weight_Loss">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#NutritionMetabolismAndDevelopmentSymptom"/>
     </owl:NamedIndividual>
     
 
@@ -1234,9 +1508,17 @@
             <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#LivestockFeeds"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#LivestockProducts"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#LivestockSpecies"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Medication"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#MetabolismDiseaseSource"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Organism"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Treatment"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Antibiotic"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Antisymptom"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Chemotherapy"/>
         </owl:members>
     </rdf:Description>
     <rdf:Description>
@@ -1255,6 +1537,37 @@
             <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#FungalDisease"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#ParasiticDisease"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#ViralDisease"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Carp"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Catfish"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Salmon"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Tilapia"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Cattle"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Goat"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Horse"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Mouse"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Pig"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Rabbit"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Sheep"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Chicken"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Duck"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Goose"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Quail"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Turkey"/>
         </owl:members>
     </rdf:Description>
     <rdf:Description>
@@ -1290,6 +1603,14 @@
             <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Fish"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Mammal"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Poultry"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Prevention"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Therapy"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Vaccine"/>
         </owl:members>
     </rdf:Description>
 </rdf:RDF>
