@@ -1703,6 +1703,17 @@
     
 
 
+    <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#Sapi_Dexter -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Sapi_Dexter">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Cattle"/>
+        <eat rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Rumput"/>
+        <produce rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Beef_Meat"/>
+        <produce rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Cow_Milk"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/user/ontologies/2021/3/OHT#Sapi_Frisian_Holstein -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/OHT#Sapi_Frisian_Holstein">
